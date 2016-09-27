@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+puts ENV['PATH']
+
 # sync output
 $stdout.sync = true
 
@@ -29,5 +31,3 @@ rescue Exception => e
     raise e
   end
 end
-
-puts ENV['PATH']
