@@ -29,3 +29,5 @@ rescue Exception => e
     raise e
   end
 end
+
+puts ENV['PATH']
